@@ -1,2 +1,6 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+open DNS_In_Weekend.Lib
+
+[<EntryPoint>]
+let main args =
+  printfn "hah %A" args
+  0
